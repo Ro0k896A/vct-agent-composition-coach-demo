@@ -3,7 +3,9 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Large source dataset; download separately when needed.
-kaggle/
+/kaggle/**
+!/kaggle/**/
+!/kaggle/**/.gitkeep
 cleaned_data/*.csv
 cleaned_match_data.csv
 
